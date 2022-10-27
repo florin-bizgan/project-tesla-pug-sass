@@ -1,0 +1,20 @@
+.background
+  //dimensiuni
+  height: 100vh
+  width: 100vw
+  padding: 32px
+
+  //aliniere
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  align-items: center
+
+  //background
+  background-image: var(--bgi-mobile)
+  background-size: cover
+  background-position: center
+
+  @media screen and ( min-width: 768px )
+    .background
+      background-image: var(--bgi-desktop)
